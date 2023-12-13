@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="project1.css">
+    <!-- Box Icons -->
+    <link
+        href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+        rel="stylesheet"
+    />
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+            <!-- Logo -->
+            <a href="#" class="logo">
+                <img src="photo/logo.png" alt="logo">
+            </a>
+            <!-- Navbar -->
+            <div class="navbar">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About Us</a></li>
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li><a href="#testimonial" class="nav-link">Testimonial</a></li>
+                <li><a href="#contact" class="nav-link">Contact Us</a></li>
+                <form>
+                    <div class="form">
+                    <label for="country"></label>
+                    <select id="country" name="country">
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="English">English</option>
+                    </div>
+                    </select>
+                </form>
+            </div>
+            <!-- Menu Icon -->
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="home-data container">
+            <!-- Home Text -->
+            <div class="home-text">
+                <h3>It's time for a delicious treat!</h3>
+                <h2>
+                    A little bit <br />
+                    of sweet paradise
+                </h2>
+                <!-- Form -->
+                <div class="form">
+                <form action="">
+                    <label for="">Name</label>
+                    <input type="text" placeholder="your name"> </br>
+                </form>
+                <div class="home-btns">
+                    <a href="#" class="order-btn btn">Order Now</a>
+                </div>
+                </div>
+                <!-- Home Image -->
+                <div class="home-img">
+                    <img src="photo/home.jpg" alt="">
+                </div>
+                <!-- Contact Info -->
+                <section class="contact" id="contact"></section>
+                <div class="contact-info">
+                    <div class="contact-info-box">
+                        <i class="bx bxs-map"></i>
+                        <span>
+                        <a href="https://www.google.com/maps/place/MargoCity/@-6.3564055,106.8489625,14z/data=!4m6!3m5!1s0x2e69ec093dabf58d:0xd3365350a2ebe2f!8m2!3d-6.372967!4d106.8344235!16s%2Fg%2F121_jbmk?entry=ttu">Margo City, Depok</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-info-box">
+                        <i class="bx bxs-phone"></i>
+                        <span>
+                        <a href="https://web.whatsapp.com/">(+62)123-4567-89</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-info-box">
+                        <i class="bx bxs-envelope"></i>
+                        <span>
+                        <a href="https://mail.google.com/mail/mu/mp/7/#tl/priority/%5Esmartlabel_personal">Jsitebakery@ac.id</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- 2nd Home Image for make mobile responsive -->
+            <div class="home-bg">
+                <img src="photo/home.jpg" alt="" /> 
+            </div>
+        </div>
+    </section>
+    <!-- About Us -->
+    <section class="about container" id="about">
+        <!-- About Text -->
+        <div class="about-text">
+            <!-- Heading -->
+            <h2 class="heading">About Us</h2>
+            <h1>The Art of Baking Happiness</h1>
+            <p>
+                We provide the best experience that guarantees to make you feel sweet joy of your celebration
+            </p>
+            <a href="" class="learn-more">
+                <span>Learn More</span>
+                <i class="bx bx-right-arrow-alt"></i>
+            </a>
+        </div>
+        <!-- About Data -->
+        <div class="about-data">
+            <div class="about-box">
+                <img src="photo/about.jpg" alt="" /> 
+                <div class="about-overlay">
+                    <div class="overlay-text">
+                        <h2>Store</h2>
+                        <p>Open every day 10am - 4pm.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-box">
+                <img src="photo/about2.jpg" alt="" /> 
+                <div class="about-overlay">
+                    <div class="overlay-text">
+                        <h2>Order</h2>
+                        <p>We are available for all your events.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-box">
+                <img src="photo/about3.jpg" alt="" />
+                <div class="about-overlay">
+                    <div class="overlay-text">
+                        <h2>Promos</h2>
+                        <p>Get attractive promos for all new memberships!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Products -->
+    <section class="products" id="products">
+        <div class="heading2">
+            <h2>Our Popular Products</h2>
+        </div>
+        <!-- container -->
+        <div class="products-container">
+            <div class="box">
+                <img src="photo/p1.jpg" alt="p1">
+                <h3>Vanilla mousse</h3>
+                <div class="content">
+                    <span>Rp 24.999</span>
+                    <a href="#">Buy</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="photo/p2.jpg" alt="p1">
+                <h3>Dessert layer Chocoberry</h3>
+                <div class="content">
+                    <span>Rp 49.999</span>
+                    <a href="#">Buy</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="photo/p3.jpg" alt="p1">
+                <h3>Silky pudding</h3>
+                <div class="content">
+                    <span>Rp 29.999</span>
+                    <a href="#">Buy</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="photo/p4.jpg" alt="p1">
+                <h3>Christmas cake</h3>
+                <div class="content">
+                    <span>Rp 299.999</span>
+                    <a href="#">Buy</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="photo/p5.jpg" alt="p1">
+                <h3>Cromboloni</h3>
+                <div class="content">
+                    <span>Rp 39.999</span>
+                    <a href="#">Buy</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="photo/p6.jpg" alt="p1">
+                <h3>Caramel Tart</h3>
+                <div class="content">
+                    <span>Rp 289.999</span>
+                    <a href="#">Buy</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="photo/p7.jpg" alt="p1">
+                <h3>Chocolate slice</h3>
+                <div class="content">
+                    <span>Rp 54.999</span>
+                    <a href="#">Buy</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="photo/p8.jpg" alt="p1">
+                <h3>Mango Choco dessert</h3>
+                <div class="content">
+                    <span>Rp 44.999</span>
+                    <a href="#">Buy</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial -->
+    <section class="testimonial container" id="testimonial">
+        <h2 class="heading">Testimonial</h2>
+        <h3>What Our Beloved <br />
+            Customer Say About Us</h3>
+        <!-- Testimonial Data -->
+        <div class="testimonial-data">
+            <!-- Box 1 -->
+            <div class="t-box">
+                <div class="t-img">
+                    <img src="photo/t1.jpg" alt="">
+                    <i class="bx bxs-quote-alt-right"></i>
+                </div>
+                <h2>Clarissa</h2>
+                <p>
+                    I ordered a birthday cake for my friend, and she really liked it! She said the cake was very delicious and good!
+                </p>
+            </div>
+            <!-- Box 2 -->
+            <div class="t-box">
+                <div class="t-img">
+                    <video width="100%" height="auto" controls>
+                        <source src="photo/t2.mp4" type="video/mp4">
+                    </video>
+                    <i class="bx bxs-quote-alt-right"></i>
+                </div>
+                <h2>Hazzel Fraley</h2>
+                <p>
+                    I'm already a member here, I've gotten a lot of promos! A lot of bakery choices and all of them looks delicious!
+                </p>
+            </div>
+             <!-- Box 3 -->
+            <div class="t-box">
+                <div class="t-img">
+                    <img src="photo/t3.jpg" alt="">
+                    <i class="bx bxs-quote-alt-right"></i>
+                </div>
+                <h2>Hanna Oktav</h2>
+                <p>
+                    I can design my cake however I want and the result is amazing, thank you Jsite Bakery.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <section class="footer">
+        <div class="footer-container container">
+            <div class="footer-box">
+                <a href="#" class="logo">
+                    <img src="photo/logo.png" alt="logo">
+                </a>
+                <div class="social">
+                    <a href="#"><i class="bx bxl-facebook"></i></a>
+                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                    <a href="#"><i class="bx bxl-tiktok"></i></a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>Products</h3>
+                <a href="#">Cake</a>
+                <a href="#">Cookies</a>
+                <a href="#">Bread</a>
+                <a href="#">Dessert</a>
+            </div>
+            <div class="footer-box">
+                <h3>Support</h3>
+                <a href="#">Help & Support</a>
+                <a href="#">Terms Of Use</a>
+                <a href="#">Privacy</a>
+                <a href="#">Return policy</a>
+            </div>
+            <div class="footer-box">
+                <h3>View Guides</h3>
+                <a href="#">Features</a>
+                <a href="#">Careers</a>
+                <a href="#">Blog Posts</a>
+                <a href="#">Our Branches</a>
+            </div>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>&copy; Nailafhidayat</p>
+    </div>
+    <!-- Link to Js -->
+    <script src="project1.js"></script>
+</body>
+</html>
